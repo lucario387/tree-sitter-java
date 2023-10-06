@@ -30,7 +30,7 @@
   object: (identifier) @type)
  (#match? @type "^[A-Z]"))
 ((scoped_identifier
-  scope: (identifier) @type)
+  name: (identifier) @type)
  (#match? @type "^[A-Z]"))
 ((method_invocation
   object: (identifier) @type)
